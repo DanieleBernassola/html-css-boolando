@@ -96,4 +96,8 @@ body{
 .content:hover .hover-image{
     display: block;
 }
+
+.heart:hover{
+    color: red;
+}
 /* FINE CLASSI HOVER */
