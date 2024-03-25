@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* INIZIO CLASSI LAYOUT */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-100{
+    width: 100%;
+}
+
+.col-33{
+    margin: 10px;
+    width: calc(100% / 3 - 20px);
+}
+/* FINE CLASSI LAYOUT */
+/* INIZIO CLASSI */
+.content img{
+    width: 100%;
+}
+/* FINE CLASSI */
